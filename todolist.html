@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!-- Start of the todo list -->
+    <div class="container s-pds-12 s-pdtbt-20">
+        <div class="wrapper s-full-width s-full-height">
+            <header>
+                <h1>To-do List</h1>
+                <h2 class="s-pdtbt-20">by VNV</h2>
+            </header>
+            <div class="todo-content">
+                <div class="input_field">
+                    <input type="text" id="input-add" placeholder="Add your new task" maxlength="28">
+                    <button class="add-btn" title="Add Task"><i class='bx bx-plus'></i></button>
+                </div>
+                <ul class="todo-list s-full-width">
+                    <!-- Data from listArr -->
+                </ul>
+                
+            </div>
+            <div class="footer">
+                <span class="footer-text">You have <h2 class="sum-task" id="sum-number"></h2> pending tasks</span>
+                <button id="clear-all-btn" class="button" title="Clear All The Tasks!">Clear All</button>
+            </div>
+        </div>
+    </div>
+    <!-- Start of the todo list -->
+
+    <script src="./assets/scripts/script.js"></script>
+
+</body>
+</html>

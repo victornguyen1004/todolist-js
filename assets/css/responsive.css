@@ -1,0 +1,52 @@
+/* PC */
+@media(min-width: 64em){
+
+}
+
+/* Tablet */
+@media(min-width: 46.25em) and (max-width:  63.9375em){
+    .wrapper .todo-content .todo-list {
+        padding-right: 0;
+    }
+}
+
+/* Mobile */
+@media(max-width: 46.1875em){
+    header{
+        flex-direction: column;
+        align-items: center;
+    }
+    header h1{
+        margin-bottom: 0;
+    }
+    .wrapper .todo-content .input_field{
+        height: 80px;
+    }
+    .todo-content .todo-list li span{
+        width: 100%!important;
+        line-height: 60px!important;
+    }
+    .footer{
+        flex-direction: column!important;
+    }
+
+    /* Dùng chung */
+    .s-pds-12{
+        padding-right: 12px!important;
+        padding-left: 12px!important;
+    }
+    .s-pdtbt-20{
+        padding-top: 20px!important;
+        padding-bottom: 20px!important;
+    }
+    .s-full-width{
+        width: 100%!important;
+    }
+    .s-full-height{
+        height: 100%!important;
+    }
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+}
